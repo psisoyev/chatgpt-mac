@@ -15,11 +15,7 @@ module.exports = {
     },
     osxNotarize: {
       appBundleId: "com.vincelwt.chatgptmac",
-
-      tool: "notarytool",
-      appleId: parsed.APPLE_ID,
-      appleIdPassword: parsed.APPLE_PASSWORD,
-      teamId: parsed.APPLE_TEAM_ID,
+      tool: "notarytool"
     },
   },
   publishers: [
